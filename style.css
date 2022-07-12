@@ -1,0 +1,291 @@
+body{
+    margin: 0px;
+
+}
+.menu-container{
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    color: white;
+}
+.menu-item{
+    display: flex;
+    padding-top:20px ;
+   
+}
+.menu-item li{
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+.menu-item li:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+.font{
+    font-size: 30px;
+}
+.first-portion{
+    display: flex;
+    color: white;
+    width: 100%;
+    height: 100%;
+    align-items: center ;
+    background-color: black;
+    
+
+}
+.left-side{
+    width: 80%;
+    margin: 10px;
+}
+.right-side{
+    width: 80%;
+    height: 100%;
+    margin-left: 30px;
+    
+}
+.color{
+    color: darkred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.gym{
+    width: 100%;
+    height: 500%;
+}
+.second-h1{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.Box{
+    display: flex;
+}
+.first-box{
+        border: 2px solid rgb(130, 46, 46);
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 8px;
+        box-shadow: 10px 10px 10px grey;
+        transition: 8ms;
+}
+.second-box{
+    border: 2px solid rgb(130, 46, 46);
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px grey;
+    transition: 8ms;
+}
+.third-box{
+    border: 2px solid rgb(130, 46, 46);
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px grey;
+    transition: .8ms;
+}
+.first-box:hover{
+    border: 1px solid crimson;
+    transition: .8ms;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.second-box:hover{
+    border: 1px solid crimson;
+    transition: .8ms;
+    margin-top: -10px;
+    cursor: pointer;
+    
+}
+.third-box:hover{
+    border: 1px solid crimson;
+    transition: .8ms;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.Third-text{
+        margin-top: 60px;
+        text-align: center;
+}
+.third-portion{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+
+}
+.tthird{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.trd{
+    margin-left: 50%;
+}
+.pic-1{
+    width: 30%;
+    width: 198px;
+    height: 400px;
+    margin-bottom: 21px;
+}
+
+.workout-img{
+    display: flex;
+    transform: skewY(-15deg);
+}
+
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    
+}
+.btn{
+    background-image: linear-gradient(red,black);
+    padding: 5px;
+    border-radius: 9px;
+    border: 1px solid rgba(255, 72, 0, 0.739);
+    transition: .8ms;
+    margin-top: -1px;
+}
+.btn :hover{
+    transition: .8ms;
+    margin-top: -1px;
+    border: 1px solid rgba(234, 0, 255, 0.739);
+    cursor: pointer;
+}
+.batch{
+    position: relative;
+}
+.batch-icon{
+    width: 55px;
+    height: 2%;
+    margin-top: -160px;
+    position: absolute;
+}
+
+.part-1 div img{
+    height: 250px;
+    
+}
+.part-1{
+    border: 1px solid red;
+    margin: 30px;
+    box-shadow: 5px 5px 25px red;
+}
+
+.txt-styl{
+    text-align: center;   
+}
+.part-2 div img{
+    width: 303px;
+    height: 250px;
+    
+}
+
+
+.part-2{
+    border: 1px solid red;
+    margin: 30px;  
+    box-shadow: 5px 5px 25px red;
+}
+.part-3 div img{
+    width: 250px;
+    height: 250px;
+}
+.part-3{
+    border: 1px solid red;
+    margin: 15px;
+    box-shadow: 5px 5px 25px red;
+    
+}
+.two{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    background-color: black;
+    color: rgba(169, 158, 81, 0.853);
+    position: relative;
+}
+
+.part-1:hover{
+    border: 1px solid rgb(142, 112, 83);
+    cursor: pointer;
+    transition: .8ms;
+    margin-top: 20px;
+}
+.part-2:hover{
+    border: 1px solid rgb(142, 112, 83);
+    cursor: pointer;
+    transition: .8ms;
+    margin-top: 20px;
+}
+.part-3:hover{
+    border: 1px solid rgb(142, 112, 83);
+    cursor: pointer;
+    transition: .8ms;
+    margin-top: 20px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+.part-5{
+    text-align: center;
+    background-color: rgba(155, 6, 6, 0.936);
+    margin: 80px;
+    border-radius: 30px;
+    
+}
+
+.payment img{
+    margin-left: 70px;
+}
+.part-halffourth{
+    background-image:url(images/shape/Group_33094_1.png);
+    width: 70vw;
+    height: 30vh;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.part-halffourth button{
+    margin-left: 50%;
+    margin-right: 30%;
+}
+
+.part-halffourth h1{
+    padding-top: 35px;
+    padding-left: 40%;
+}
+hr{
+    width: 70%;
+    align-items: center;
+    margin-top: 50px;
+    
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+div img{
+    margin-left:30px ;
+}
+div img:hover{
+    cursor: pointer;
+    border: 1px solid red;
+    background-color: brown;
+}
+
+footer p{
+    
+    text-align: center;
+}
